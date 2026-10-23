@@ -1,22 +1,10 @@
-# 웹 프레임워크 및 서버
-
 fastapi
 
 uvicorn
 
 python-multipart
 
-
-
-# 환경 변수 관리
-
-# ... existing code ...
-
 python-dotenv
-
-
-
-# LangChain 코어 및 커뮤니티
 
 langchain
 
@@ -24,24 +12,12 @@ langchain-core
 
 langchain-community
 
-
-
-# LLM 및 임베딩 모델 통합
-
 langchain-openai
 
 langchain-google-genai
 
-
-
-# 벡터 DB (Supabase)
-
 supabase
 
-
-
-# PDF 처리 및 텍스트 분할
-
-PyMuPDF
+pymupdf>=1.23.0
 
 tiktoken
