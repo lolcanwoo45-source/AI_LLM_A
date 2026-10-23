@@ -18,6 +18,6 @@ langchain-google-genai
 
 supabase
 
-pymupdf>=1.23.0
+pymupdf
 
 tiktoken
