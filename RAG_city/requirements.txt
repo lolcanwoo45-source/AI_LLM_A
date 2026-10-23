@@ -1,1 +1,45 @@
+# 웹 프레임워크 및 서버
 
+fastapi==0.110.0
+
+uvicorn==0.27.1
+
+python-multipart==0.0.9 # 파일 업로드 처리용
+
+
+
+# 환경 변수 관리
+
+python-dotenv==1.0.1
+
+
+
+# LangChain 코어 및 커뮤니티
+
+langchain==0.1.13
+
+langchain-core==0.1.33
+
+langchain-community==0.0.29
+
+
+
+# LLM 및 임베딩 모델 통합
+
+langchain-openai==0.1.1       # OpenAI 임베딩용
+
+langchain-google-genai==1.0.1 # 구글 Gemini용
+
+
+
+# 벡터 DB (Supabase)
+
+supabase==2.4.1
+
+
+
+# PDF 처리 및 텍스트 분할
+
+PyMuPDF==1.24.1 # 속도와 텍스트 추출 정확도가 높은 PDF 로더
+
+tiktoken==0.6.0 # 토큰 기반 텍스트 분할을 위한 라이브러리
