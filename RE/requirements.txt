@@ -1,0 +1,29 @@
+# FastAPI 및 서버 구동을 위한 라이브러리
+
+fastapi==0.109.2
+
+uvicorn==0.27.1
+
+python-multipart==0.0.9
+
+sse-starlette==2.0.0
+
+
+
+# LangChain 및 Google AI 관련 라이브러리
+
+langchain==0.1.9
+
+langchain-google-genai==0.0.9
+
+langchain-community==0.0.24
+
+langchainhub==0.1.14
+
+
+
+# 벡터 DB (Chroma) 및 PDF 처리 라이브러리
+
+chromadb==0.4.23
+
+pypdf==4.0.2
