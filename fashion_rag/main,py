@@ -650,7 +650,7 @@ class ChromaMultiVectorStore:
 
     def get_stats(self) -> Dict[str, Any]:
         return {
-            "vector_db": "ChromaDB (Multi-Vector Retriever)" if CHROMADB_AVAILABLE else "ChromaDB-Compatible In-Memory Multi-Vector Store",
+            "vector_db": "ChromaDB (Multi-Vector Retriever)",
             "collection_name": self.collection_name,
             "dataset": "Fashionpedia Multimodal Catalog",
             "parent_look_count": len(self.parent_store),
@@ -1218,5 +1218,4 @@ async def execute_multimodal_fashion_rag(req: QueryRequest):
                 "stream_logs": stream.get_summary(),
             },
         )
-
 
